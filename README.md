@@ -17,8 +17,6 @@ composer require wyrihaximus/react-cache-read-write
 
 # Usage
 
-Wrap any class implementing `React\Cache\CacheInterface` and it will encode any value you give it to JSON when saving, and decode it back to an array or scalar when fetching:
-
 ```php
 <?php
 
