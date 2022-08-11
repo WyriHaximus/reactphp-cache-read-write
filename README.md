@@ -3,9 +3,7 @@
 [![Build Status](https://travis-ci.org/WyriHaximus/reactphp-cache-read-write.svg?branch=master)](https://travis-ci.org/WyriHaximus/reactphp-cache-read-write)
 [![Latest Stable Version](https://poser.pugx.org/WyriHaximus/react-cache-read-write/v/stable.png)](https://packagist.org/packages/WyriHaximus/react-cache-read-write)
 [![Total Downloads](https://poser.pugx.org/WyriHaximus/react-cache-read-write/downloads.png)](https://packagist.org/packages/WyriHaximus/react-cache-read-write)
-[![Code Coverage](https://scrutinizer-ci.com/g/WyriHaximus/reactphp-cache-read-write/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/WyriHaximus/reactphp-cache-read-write/?branch=master)
 [![License](https://poser.pugx.org/WyriHaximus/react-cache-read-write/license.png)](https://packagist.org/packages/WyriHaximus/react-cache-read-write)
-[![PHP 7 ready](http://php7ready.timesplinter.ch/WyriHaximus/reactphp-cache-read-write/badge.svg)](https://travis-ci.org/WyriHaximus/reactphp-cache-read-write)
 
 # Installation
 

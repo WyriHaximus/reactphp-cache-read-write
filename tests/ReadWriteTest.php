@@ -1,26 +1,26 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace WyriHaximus\Tests\React\Cache;
 
 use React\Cache\CacheInterface;
-use function React\Promise\resolve;
 use WyriHaximus\AsyncTestUtilities\AsyncTestCase;
 use WyriHaximus\React\Cache\ReadWrite;
 
-/**
- * @internal
- */
-final class KeyPrefixTest extends AsyncTestCase
+use function React\Promise\resolve;
+
+final class ReadWriteTest extends AsyncTestCase
 {
     /**
      * @test
      */
     public function readWrite(): void
     {
-        $key = 'sleutel';
-        $value = 'gat';
+        $key     = 'sleutel';
+        $value   = 'gat';
         $default = 'standaard';
-        $ttl = 666;
+        $ttl     = 666;
 
         $read = $this->prophesize(CacheInterface::class);
         $read->get($key, $default)->shouldBeCalled()->willReturn(resolve(true));
