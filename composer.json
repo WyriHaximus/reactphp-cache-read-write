@@ -13,7 +13,7 @@
         "react/cache": "^1.0"
     },
     "require-dev": {
-        "wyrihaximus/async-test-utilities": "^5.0.19"
+        "wyrihaximus/async-test-utilities": "^5.0.21"
     },
     "autoload": {
         "psr-4": {
