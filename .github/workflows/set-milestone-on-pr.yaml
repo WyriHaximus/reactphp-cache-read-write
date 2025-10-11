@@ -21,7 +21,7 @@ jobs:
     outputs:
       check: ${{ steps.generate-checks-strategy.outputs.check }}
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - name: 'Get Previous tag'
         id: previoustag
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
