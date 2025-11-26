@@ -124,7 +124,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
-      - uses: shivammathur/setup-php@v2
+      - uses: shivammathur/setup-php@7bf05c6b704e0b9bfee22300130a31b5ea68d593 # 2.36.0
         with:
           php-version: ${{ matrix.php }}
           coverage: pcov
