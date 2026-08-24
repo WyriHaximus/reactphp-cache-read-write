@@ -64,7 +64,7 @@ jobs:
     container:
       image: ghcr.io/wyrihaximusnet/php:${{ matrix.php }}-nts-buster-dev-root
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e # v2.8.0
         with:
           path: checked_out_package
       - name: Set Up composer.json
