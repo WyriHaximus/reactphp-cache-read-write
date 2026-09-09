@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: 'Get Previous tag'
         id: previoustag
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+        uses: "WyriHaximus/github-action-get-previous-tag@83f26fea93bc7efcbca2eb5591f5eaaf66b8f206" # v2.1.0
         with:
           fallback: ${{ env.FALLBACK_TAG }}
       - name: 'Get next versions'
