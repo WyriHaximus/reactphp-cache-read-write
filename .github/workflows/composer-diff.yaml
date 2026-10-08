@@ -21,11 +21,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
       - name: Comment composer.lock diff
-        uses: WyriHaximus/github-action-composer.lock-diff@v1
+        uses: WyriHaximus/github-action-composer.lock-diff@a6ee9c7e831c9dc959819c285aa0dc07a53c15cf # v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
